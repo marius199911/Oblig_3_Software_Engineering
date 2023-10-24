@@ -15,7 +15,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <!-- Specify the test directory -->
-                    <testSourceDirectory>test.java.org.test.LeapYearTest</testSourceDirectory>
+                    <testSourceDirectory>src/test/java/org/test</testSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
