@@ -30,7 +30,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <!-- Specify the test directory -->
-                    <testSourceDirectory>src/test</testSourceDirectory>
+                    <testSourceDirectory>src/test/java</testSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
