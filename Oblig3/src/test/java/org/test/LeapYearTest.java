@@ -1,5 +1,6 @@
+package org.test;
+
 import org.junit.jupiter.api.Test;
-import org.test.LeapYear;
 
 import static org.junit.jupiter.api.Assertions.*;
 
