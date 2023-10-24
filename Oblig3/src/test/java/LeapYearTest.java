@@ -3,7 +3,7 @@ import org.test.LeapYear;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class testifleapyear {
+class LeapYearTest {
 
     @Test
     public void test_is_dividable_by_4_not_100(){
