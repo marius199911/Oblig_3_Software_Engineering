@@ -36,6 +36,6 @@ class LeapYearTest {
 
     @Test
     public void test_not_dividable_by_400(){
-        assertFalse(LeapYear.is_dividable_by_400(404));
+        assertFalse(LeapYear.is_dividable_by_400(408));
     }
 }
