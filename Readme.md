@@ -1,8 +1,8 @@
+I have created a repository on github and made sure it is public.
+After I made the repository i pushed the files from Oblig 2 to github via intellij.
+Then i pressed actions on github, where i chose "java with maven", and pushed the .yml file i got.
 
-Jeg har laget et repository på github, sørget for at det var public.
-Etter at jeg laget repositoryet pushet jeg filene fra oblig 2 til github via intellij.
-Så trykket jeg på actions på github, hvor jeg så valgte "java with maven", og pushet maven fila jeg da fikk.
-Deretter la jeg til "maven-surefire-plugin" i pom.xml filen.
-Så fikk jeg feil når jeg puset siden jeg hadde laget en ny module hvor .idea og .github mappene ikke var, såda måtte
-feilsøke. Fant ut at dersom alt lå direkte i repositoryet, ville det fungere.
-Etter det fungerte alt med actions i github.
+Added "maven-surefire-plugin" in the pom.xml file.
+But i got errors while pushing to github since i had a module in the repository where the .idea and .github were not in the same module.
+I fixed this by moving everything out of the module and directly into the github repository.
+After this the actions tab checked the tests while pushing to github.
